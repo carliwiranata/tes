@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(238, 237, 204);
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 30px auto;
+   
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.gambar img {
+    width: 50px;
+}
+.navbar a {
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+}
+.navbar2 a {
+    border-radius: 25px;
+    background-color:rgb(170, 198, 230) ;
+    padding: 10px;
+    text-decoration: none;
+}
+.header h1, .satu h1 {
+    font-family: 'Anton', sans-serif;
+    font-size:40px;
+}
+.isi {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.satu p {
+    margin: 30px 0px;
+}
+.dua img {
+    width: 600px;
+}
+.satu a {
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color:rgb(170, 198, 230) ;
+    padding: 15px;
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.navbar2 a:hover {
+    background-color:rgb(147, 180, 218) ;
+}
+.satu a:hover {
+    background-color:rgb(147, 180, 218) ;
+    color: rgb(28, 29, 34);
+}
+.isi2 {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+}
+.isi2 img {
+    width: 200px;
+}
+.col-dua h1 {
+    text-align: center;
+    margin: 20px;
+}
+.isi3 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c1 img {
+    width: 400px;
+}
+.c2 h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:800px) {
+    * {
+        font-size: 13px;
+    }
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .gambar img {
+        width: 30px;
+    }
+    .navbar a {
+        text-decoration: none;
+        margin: 5px;
+        padding: 5px;
+        color: black;
+    }
+    .navbar2 a {
+        border-radius: 15px;
+        background-color:rgb(170, 198, 230) ;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .dua img {
+        width: 260px;
+
+    }
+    .header h1, .satu h1 {
+        font-family: 'Anton', sans-serif;
+        font-size:20px;
+    }
+    .isi {
+        display: flex;
+        align-items: center;
+        height: 50vh;
+    }
+    .satu a {
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 25px;
+        background-color:rgb(126, 156, 190) ;
+        padding: 10px;
+        text-decoration: none;
+        margin-right: 10px;
+        color: black;
+        font-size: 12px;
+    }
+    .satu {
+        font-size: 13px;
+    }
+    .satu p {
+        margin: 10px 0px;
+    }
+    .isi2 {
+        display: flex;
+        justify-content: space-between;
+        height: 50vh;
+        align-items: center;
+        font-size: 13px;
+    }
+    .isi2 img {
+        width: 90px;
+    }
+    .col-dua h1 {
+        text-align: center;
+        margin: 20px;
+    }
+    .isi3 {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+    }
+    .c1 img {
+        width: 250px;
+    }
+    .c2 h3 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    * {
+        font-size: 19px;
+    }
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .gambar img {
+        width: 50px;
+    }
+    .navbar a {
+        text-decoration: none;
+        margin: 20px;
+        padding: 10px;
+        color: black;
+    }
+    .navbar2 a {
+        border-radius: 25px;
+        background-color:rgb(170, 198, 230) ;
+        padding: 10px;
+        text-decoration: none;
+    }
+    .header h1, .satu h1 {
+        font-family: 'Anton', sans-serif;
+        font-size:30px;
+    }
+    .isi {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+    }
+    .satu p {
+        margin: 30px 0px;
+    }
+    .dua img {
+        width: 600px;
+    }
+    .satu a {
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 25px;
+        background-color:rgb(170, 198, 230) ;
+        padding: 15px;
+        text-decoration: none;
+        margin-right: 20px;
+        color: black;
+    }
+    .navbar a:hover {
+        text-decoration: underline;
+    }
+    .navbar2 a:hover {
+        background-color:rgb(147, 180, 218) ;
+    }
+    .satu a:hover {
+        background-color:rgb(147, 180, 218) ;
+        color: rgb(28, 29, 34);
+    }
+    .isi2 {
+        display: flex;
+        justify-content: space-between;
+        height: 100vh;
+        align-items: center;
+    }
+    .isi2 img {
+        width: 200px;
+    }
+    .col-dua h1 {
+        text-align: center;
+        margin: 20px;
+    }
+    .isi3 {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .c1 img {
+        width: 400px;
+    }
+    .c2 h3 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:768px) {
+
+}
